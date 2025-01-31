@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['dentigeroz', 'keratokist', 'radikuler']
+
+roboflow:
+  workspace: cyst-detection
+  project: cystdetection3.0
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cyst-detection/cystdetection3.0/dataset/3
